@@ -37,10 +37,6 @@ body {
   font-weight: 500;
 }
 
-.nav-menu a:hover {
-  text-decoration: underline;
-}
-
 .hamburger {
   display: none;
   position: absolute; 
@@ -115,14 +111,7 @@ p a:hover {
   max-width: 140px;
   border-radius: 5px;
   overflow: hidden;
-  box-shadow: 0 0 8px #997a1e88;
-  transition: transform 0.2s ease;
   cursor: default;
-}
-
-.movie-card:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 15px #ccaa3399;
 }
 
 .movie-card img {
