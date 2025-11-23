@@ -1,4 +1,3 @@
-/* Body and background */
 body {
   margin: 0;
   font-family: 'Times New Roman', serif;
@@ -11,9 +10,8 @@ body {
   justify-content: space-between;
 }
 
-/* Navbar container */
 .navbar {
-  background-color: #997a1e; /* golden brown */
+  background-color: #997a1e; 
 }
 
 .nav-container {
@@ -26,7 +24,6 @@ body {
   position: relative;
 }
 
-/* Navigation menu links */
 .nav-menu {
   display: flex;
   gap: 30px;
@@ -44,7 +41,6 @@ body {
   text-decoration: underline;
 }
 
-/* Hamburger button hidden by default */
 .hamburger {
   display: none;
   position: absolute; 
@@ -71,7 +67,6 @@ body {
   transition: all 0.3s ease;
 }
 
-/* Main container */
 .container {
   max-width: 900px;
   margin: 40px auto 40px auto;
@@ -82,7 +77,6 @@ body {
   user-select: text;
 }
 
-/* Heading */
 h1 {
   font-family: 'Cinzel', serif;
   font-size: 2.8rem;
@@ -92,7 +86,6 @@ h1 {
   user-select: none;
 }
 
-/* Paragraph */
 p {
   font-size: 16px;
   line-height: 1.6;
@@ -110,7 +103,6 @@ p a:hover {
   color: #ccaa33;
 }
 
-/* Movies grid layout */
 .movies-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -121,7 +113,6 @@ p a:hover {
   user-select: none;
 }
 
-/* Each movie poster card */
 .movie-card {
   border: 4px solid #997a1e;
   max-width: 140px;
@@ -146,23 +137,20 @@ p a:hover {
   border-radius: 3px;
 }
 
-/* Footer */
 footer {
   background-color: #997a1e;
   height: 60px;
   margin-top: auto;
 }
 
-/* Responsive styling */
 
-/* Show hamburger and hide nav-menu on smaller screens */
 @media (max-width: 600px) {
   .nav-container {
     justify-content: space-between;
   }
 
   .hamburger {
-    position: static; /* participate in flex on mobile */
+    position: static; 
     margin-right: 20px;
     display: flex;
   }
@@ -182,12 +170,10 @@ footer {
     z-index: 1000;
   }
 
-  /* Show nav-menu when active */
   .nav-menu.active {
     display: flex;
   }
 
-  /* Movies grid and container adjustments */
   .container {
     margin: 20px 15px 40px 15px;
     padding: 25px 15px;
